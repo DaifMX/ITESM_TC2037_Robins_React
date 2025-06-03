@@ -1,12 +1,27 @@
-# React + Vite
+# Robins CPU
+This simple Vite + React website shows an 8x8 grid, takes our compiled CPU instructions as a .txt file and moves our robot on the grid accordingly!
+[Github Repository](https://github.com/DaifMX/ITESM_TC2037_Robins_React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Our CPU works based on the following DFA (Deterministic Finite Automata):
+![Graphviz Diagram](graphviz.svg. 'Graphviz Diagram')
 
-Currently, two official plugins are available:
+## Getting Started
+Before compiling, please, make sure to have the latest LTS version of Node.JS installed on your machine.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Then choose one of the running modes:
+[Standard Compile](#standard-compile)
+[Developer Mode](#developer-mode)
 
-## Expanding the ESLint configuration
+### Standard Compile
+To compile, please clone this repository on your machine and then run the following commands on the root of the project:
+```
+npm i
+npm run build
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Developer Mode
+If you wish to run this project on developer mode run:
+```
+npm i
+npm run dev
+```
