@@ -3,7 +3,7 @@ This simple Vite + React website shows an 8x8 grid, takes our compiled CPU instr
 [Github Repository](https://github.com/DaifMX/ITESM_TC2037_Robins_React)
 
 Our CPU works based on the following DFA (Deterministic Finite Automata):
-![Graphviz Diagram](graphviz.svg. 'Graphviz Diagram')
+![Graphviz Diagram](graphviz.svg 'Graphviz Diagram')
 
 ## Getting Started
 Before compiling, please, make sure to have the latest LTS version of Node.JS installed on your machine.
