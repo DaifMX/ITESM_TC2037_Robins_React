@@ -70,7 +70,7 @@ const GridWithCircle = () => {
                 }
             } else if (instruction.startsWith("rot")) {
                 const steps = (iVal / 90) % 4;
-                if (!Number.isInteger(steps)) {
+                if (!Number.isInteger(steps) || iVal > 360) {
                     return Swal.fire({
                         icon: 'error',
                         title: 'Error',
