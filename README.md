@@ -7,9 +7,9 @@ Our CPU works based on the following DFA (Deterministic Finite Automata):
 ![Graphviz Diagram](graphviz.svg 'Graphviz Diagram')
 
 ## Getting Started
-Before compiling, please, make sure to have the latest LTS version of Node.JS installed on your machine.
+Before compiling, please, make sure to have the latest LTS of Node.JS installed on your machine.
 
-Then choose one of the running modes:
+Then choose one of following running modes:
 - [Standard Compile](#standard-compile)
 - [Developer Mode](#developer-mode)
 
